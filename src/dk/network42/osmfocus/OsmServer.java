@@ -11,7 +11,7 @@ import java.util.zip.GZIPInputStream;
 
 import android.util.Log;
 
-// See http://wiki.openstreetmap.org/wiki/API_v0.6
+// See https://wiki.openstreetmap.org/wiki/API_v0.6
 public class OsmServer {
     private static final String TAG = "OsmServer";
     
@@ -19,11 +19,11 @@ public class OsmServer {
     static private final int SERVER_CONNECT_TIMEOUT_MS = 30*1000;
     static private final int API_TIMEOUT_MS = 10*1000;
     static final int API_MAX_DOWNLOAD_DEGREES = (int) 1E7/4;
-    static private final String DEFAULT_API_URL = "http://api.openstreetmap.org/api/"+API_VERSION+"/";
+    static private final String DEFAULT_API_URL = "https://api.openstreetmap.org/api/"+API_VERSION+"/";
 
     private final String mApiUrl;
     private final String mAgent;
-    // See also http://wiki.openstreetmap.org/index.php/Getting_Data#Construct_an_URL_for_the_HTTP_API
+    // See also https://wiki.openstreetmap.org/wiki/Downloading_data#Construct_a_URL_for_the_HTTP_API
     //  "The server may reject your region if it is larger than 1/4 degree in either dimension."
     
     public OsmServer(String apiUrl, String agent) {
@@ -44,7 +44,7 @@ public class OsmServer {
     //	top is the latitude of the top (northernmost) side of the bounding box.
     //
     // Example:
-    //  http://api.openstreetmap.org/api/0.6/map?bbox=11.54,48.14,11.543,48.145
+    //  https://api.openstreetmap.org/api/0.6/map?bbox=11.54,48.14,11.543,48.145
     //
     // Error codes
     // HTTP status code 400 (Bad Request)
