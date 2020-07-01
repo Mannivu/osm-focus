@@ -1,9 +1,7 @@
 # osm-focus
 OSMFocus Android application - OpenStreetMap Data for Android
 
-### I'm not the original author of the app. All credits to [MichaelVL](https://github.com/MichaelVL)
-
-![Image](images/featuregfx.png?raw=true)
+<img src="images/featuregfx.png?raw=true" width="50%" />
 
 OSMfocus can show details of nearby objects from the OpenStreetMap database such
 that they can be compared with real world observations. Correcting errors or
@@ -15,10 +13,10 @@ Discrepancies between the real-world and OpenStreetMap are best observed on-site
 while memorizing details for later comparison with OpenStreetMap is usually
 difficult and with a good likelihood of missing the actual differences.
 
-![Image](images/screen01.png?raw=true)
-![Image](images/screen02.png?raw=true)
-![Image](images/screen03.png?raw=true)
-![Image](images/screen04.png?raw=true)
+<img src="images/screen01.png?raw=true" width="50%" />
+<img src="images/screen02.png?raw=true" width="50%" />
+<img src="images/screen03.png?raw=true" width="50%" />
+<img src="images/screen04.png?raw=true" width="50%" />
 
 OSMfocus shows key-value pairs as = and abbreviate two pairs that occur quite
 often, namely highway= and name= which are shown as :. Way objects which has
@@ -40,3 +38,5 @@ screenshots containing maps are (C) Copyright OpenSteetMap contributors.
 The thinking behind the application name is that the application will help
 "sharpening" the OpenStreetMap data such that it represents a more clear view of
 the observable world.
+
+### I'm not the original author of the app. All credits to [MichaelVL](https://github.com/MichaelVL)
