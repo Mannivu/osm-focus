@@ -1,6 +1,8 @@
 # osm-focus
 OSMFocus Android application - OpenStreetMap Data for Android
 
+### I'm not the original author of the app. All credits to [MichaelVL](https://github.com/MichaelVL)
+
 ![Image](images/featuregfx.png?raw=true)
 
 OSMfocus can show details of nearby objects from the OpenStreetMap database such
