@@ -31,7 +31,7 @@ vector map data and background map tiles for your current location.
 OSMfocus use data from OpenStreetMap (www.openstreetmap.org). This data and
 screenshots containing maps are (C) Copyright OpenSteetMap contributors.
 
-[OSMfocus on Google play](https://play.google.com/store/apps/details?id=dk.network42.osmfocus)
+<!-- [OSMfocus on Google play](https://play.google.com/store/apps/details?id=dk.network42.osmfocus) -->
 
 # About the Name OSMfocus
 
